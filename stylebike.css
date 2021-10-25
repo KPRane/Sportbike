@@ -23,7 +23,7 @@
     font-size: 50px;
     text-decoration: none;
     margin-left: 2%;
-   font-family:'Times New Roman', Times, serif;
+   /* font-family:'Times New Roman', Times, serif; */
 }
 .responsiveiframe {
     position: absolute;
@@ -63,14 +63,14 @@
     position: absolute;
     top: 40px;
     left: 60px;
-    font-family: 'Times New Roman', Times, serif;
+    /* font-family: 'Times New Roman', Times, serif; */
   }
 .topleft2
   {
       position: absolute;
-      top: 80px;
+      top: 100px;
       left: 60px;
-      font-family: 'Times New Roman', Times, serif;
+      /* font-family: 'Times New Roman', Times, serif; */
     }
 
 
@@ -82,4 +82,104 @@
               height:700px;
               
            }            
+
+.carousel-inner > .item > img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  min-width: 100%;
+  height: 500px;
+}
+
+#line {
+  text-decoration: none;
+}
+@media (max-width:600px){ 
+    .r1{
+    font-size:2.5rem;
+    
+    }
+    .r2{
+      font-size:2.5rem;
+      
+      }
+    h2,h4,h3,h5{
+      font-size:3rem;
+    }
+    .r2{
+      font-size:2.5rem;
+      
+      }
+    a{
+      font-size: 2rem;
+    }
+    #h{
+      font-size:2.5rem;
+    }
+    .foot{
+      font-size: 2.2rem;
+    }
+    .bgimage{
+      /* background-size: 100% 100% 100% 100%; */
+      height: 1300px;
+    }
+    .imgp{
+      width:600px;
+    }
+    
+   
+    
+}
+@media (max-width:992px){ 
+      .r1{
+        font-size:2.5rem;
+      }
+      h2,h4,h3,h5{
+        font-size:3rem;
+      }
+      .r2{
+        font-size:2.5rem;
+        
+        }
+      a{
+        font-size: 2rem;
+      }
+      #h{
+        font-size:2.5rem;
+      }
+      .foot{
+        font-size: 2rem;
+      }
+      .bgimage {
+        height: 1300px;
+      }
+     
+  
+}
+@media (max-width:767px){ 
+      .r1{
+        font-size:2.5rem;
+      }
+      h2,h4,h3,h5{
+        font-size:3rem;
+      }
+      a{
+        font-size: 2rem;
+      }
+      #h{
+        font-size:2.5rem;
+      }
+      .foot{
+        font-size: 2rem;
+      }
+      .bgimage {
+        height: 1300px;
+      }
+    
+  
+}
+
+  
+  
+
 
